@@ -18,6 +18,21 @@ function longSubtring(str) {
 }
 
 console.log(longSubtring("abcbdaac"));
+// var lengthOfLongestSubstring = function(s) {
+//   let length = 0;
+// let store = new Map();
+// let leftPointer = 0;
+// for (var right = 0; right < s.length; right++) {
+// if (store.get(s[right]) >= leftPointer) {
+//   leftPointer = store.get(s[right]) + 1;
+// }
+// store.set(s[right],right) ;
+// length = Math.max(length, right - leftPointer + 1);
+// }
+
+// return length;
+
+// };
 
 // function longSubtring(str) {
 //   let count = 0;
